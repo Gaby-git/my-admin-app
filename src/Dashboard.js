@@ -6,12 +6,12 @@ const Dashboard = () => {
 
     useEffect(() => {
         // Fetch total users count
-        fetch("http://localhost:3001/users")
+        fetch("http://localhost:3002/users")
             .then((res) => res.json())
             .then((data) => setStats((prev) => ({ ...prev, users: data.length })));
 
         // Fetch total posts count
-        fetch("http://localhost:3001/posts")
+        fetch("http://localhost:3002/posts")
             .then((res) => res.json())
             .then((data) => setStats((prev) => ({ ...prev, posts: data.length })));
     }, []);

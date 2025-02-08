@@ -1,11 +1,30 @@
 {
-    "posts": [
-      { "id": 1, "title": "React Admin Tutorial", "userId": 1, "publishedAt": "2024-01-01", "status": "published" },
-      { "id": 2, "title": "Introduction to React", "userId": 2, "publishedAt": "2024-02-01", "status": "draft" }
-    ],
-    "users": [
-      { "id": 1, "name": "John Doe" },
-      { "id": 2, "name": "Jane Smith" }
-    ]
-  }
-  
+  "posts": [
+    {
+      "id": "1",
+      "title": "React Admin Tutorial",
+      "userId": 1,
+      "publishedAt": "2024-01-01",
+      "status": "published"
+    },
+    {
+      "id": "2",
+      "title": "Introduction to React",
+      "userId": 2,
+      "publishedAt": "2024-02-01",
+      "status": "draft"
+    }
+  ],
+  "users": [
+    { "id": 1,
+     "name": "Alice Johnson",
+     "email": "alice@example.com", 
+     "isActive": true 
+    },
+    { "id": 2,
+     "name": "Bob Smith",
+     "email": "bob@example.com",
+     "isActive": true 
+    }
+  ]
+}
